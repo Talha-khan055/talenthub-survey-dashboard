@@ -89,3 +89,27 @@ python scripts/clean_data.py
 The dataset was successfully loaded, inspected, cleaned, and saved using Python and Pandas.
 
 It is now ready for subsequent exploratory data analysis and visualization.
+
+## Summary Statistics Report
+
+A summary statistics report was generated using Pandas.
+
+**Report location:**
+`reports/summary_statistics.csv`
+
+**Script location:**
+`scripts/summary_report.py`
+
+The report includes:
+- Count
+- Mean
+- Standard deviation
+- Minimum
+- Maximum
+- 25th, 50th, and 75th percentiles
+
+To generate the report, run:
+
+```bash
+python scripts/summary_report.py
+```
